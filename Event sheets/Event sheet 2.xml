@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 2</name>
+    <events>
+        <event-block sid="855663728745101">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="824420107597356" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set CSS style" sid="231415490251624" type="Button2">
+                    <param id="0" name="Property name">&quot;background&quot;</param>
+                    <param id="1" name="Value">&quot;red&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="345180273236186" type="Button2">
+                    <param id="0" name="Property name">&quot;color&quot;</param>
+                    <param id="1" name="Value">&quot;white&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="109101588200442" type="Button2">
+                    <param id="0" name="Property name">&quot;border&quot;</param>
+                    <param id="1" name="Value">&quot;none&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="398698003301797" type="Button3">
+                    <param id="0" name="Property name">&quot;background&quot;</param>
+                    <param id="1" name="Value">&quot;green&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="992000164505049" type="Button3">
+                    <param id="0" name="Property name">&quot;color&quot;</param>
+                    <param id="1" name="Value">&quot;white&quot;</param>
+                </action>
+                <action id="5" name="Set CSS style" sid="651920823735475" type="Button3">
+                    <param id="0" name="Property name">&quot;border&quot;</param>
+                    <param id="1" name="Value">&quot;none&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="614252976349374">
+            <conditions>
+                <condition id="0" name="On clicked" sid="337487339479705" type="Button2" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="784058290046979" type="System">
+                    <param id="0" name="Layout">Layout 3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="389537058029267">
+            <conditions>
+                <condition id="0" name="On clicked" sid="486416081994174" type="Button3" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="132647722452233" type="System">
+                    <param id="0" name="Layout">Layout 4</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
